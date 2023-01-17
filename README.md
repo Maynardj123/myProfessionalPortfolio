@@ -107,25 +107,14 @@ You are required to submit BOTH of the following for review:
 
 
 
-
-
-<>
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <title>Professional Portfolio</title>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./styles.CSS" />
+    <link rel="stylesheet" type="text/css" href="" />
 </head>
 
 <body>
@@ -267,4 +256,4 @@ aside {
 }
 h4, h5, h6{
     padding-bottom: 250px;
-}
+} -->
