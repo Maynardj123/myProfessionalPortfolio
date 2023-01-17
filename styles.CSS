@@ -1,0 +1,369 @@
+* {
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: linear-gradient(to bottom right, rgb(212, 212, 212),rgb(59, 59, 59)80%);
+   
+}
+.name{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: oblique;
+    font-size: 30px;
+    display: flex;
+    margin-top: 11px;
+    background-color: rgb(69, 135, 151);
+    width: 300px;
+    height:55px;
+    padding-right: 80px;
+}
+.myname {
+ 
+}
+#firstname {
+    color: blue;
+    margin-top: 0px;
+    margin-left: 80px;
+    margin-right: 5px;
+}
+#lastname {
+    color: black;
+    margin-top: 0px;
+}
+
+.profilePic{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 10%;
+    left: 2%;
+    border-radius: 15%;
+}
+
+.profilePic:hover{
+    width: 250px;
+    height: 250px;
+}
+
+
+.about-me, .work, .contact, .box2and3, .box4and5  {
+    display: flex;
+    border-right: 3px 0 black;
+}
+
+.about-me h3, .work h3, .contact h3 {
+    flex: 0 0 15%;
+}
+
+.line5 {
+    height: 240px;
+    width: 3px;
+    background-color: blue;
+    margin-top: 34px;
+}
+.line6 {
+    height: 940px;
+    width: 3px;
+    background-color: blue;
+}
+.line7 {
+    height: 140px;
+    width: 3px;
+    background-color: blue;
+}
+
+.aboutMeBio {
+    width: 1300px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h3 {
+text-align: right;
+padding-right: 10px;
+font-size: 40px;
+}
+.aboutMeTitle, .workTitle, .contactMeTitle{
+
+}
+.aboutMeTitle {
+    margin-top: 40px;
+}
+
+.workTitle{
+    margin-top: 10px;
+}
+
+.contactMeTitle{
+    margin-top: 10px;
+}
+
+.mainPic {
+    position: relative;
+}
+
+/* .mainPic img {
+    width: 100%;
+    height: 250px;
+} */
+.backgroundPic {
+ width: 100%;
+}
+
+.mainPic h2 {
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+    background-color:  rgb(69, 135, 151);
+    padding: 10px;
+}
+
+.main-header {
+    display:flex;
+    justify-content: space-between;
+    padding: 1px;
+    color: black;
+    background-color: rgb(27, 27, 27);
+    height: 75px;
+}
+
+nav {
+    display:flex
+}
+
+.navbar {
+    padding-right: 75px;
+    flex-wrap: wrap;
+}
+.am, .w, .cm, .res {
+    padding-top: 25px;
+
+}
+.line1 {
+    height: 3px;
+    background-color: rgb(69, 135, 151);
+    width: 100px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.line2{
+    height: 3px;
+    background-color: rgb(69, 135, 151);
+    width: 65px;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+.line3{
+    height: 3px;
+    background-color: rgb(69, 135, 151);
+    width: 120px;
+    margin-left: 8px;
+    margin-top: 4px;
+}
+
+.line4{
+    height: 3px;
+    background-color: rgb(69, 135, 151);
+    width: 90px;
+    margin-left: 7px;
+    margin-top: 4px;
+}
+
+
+nav a{
+    color: rgb(69, 135, 151);
+    padding: 14px 15px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.box {
+    font-size: 2rem;
+    line-height: 1;
+    text-align: center;
+    border-style: solid;
+    border-width: 4px;
+    width: 40rem;
+    height: 10rem;
+    flex: 1 0 200px;
+    padding: 8px;
+    color: rgb(69, 135, 151);
+    margin: 0.5rem;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    position: relative;
+    display: flex
+}
+
+.con, .con1{
+ padding-left: 10px;
+ padding-top: 10px;
+}
+
+.con {
+    font-size: 28px;
+}
+
+.con1 {
+    font-size: 15px;
+    margin:0;
+    padding-top: 10px;
+}
+.a {
+    background-color: rgb(69, 135, 151);
+    width: auto;
+    height: 75px;
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    padding-right: 10px;
+    color: black;
+}
+
+.a-1 {
+    background-color:  rgb(69, 135, 151);
+    width: auto;
+    height: 75px;
+    text-align: left;
+    position: absolute;
+    top: 83%;
+    left: 0%;
+    padding-right: 10px;
+    color: black;
+}
+
+.box:hover {
+    box-shadow: 0 0 30px aqua;
+  transform: scale(1.005);
+  opacity: 100%;
+}
+
+h4, h5, h6{
+    padding-bottom: 250px;
+}
+
+.projects{
+    width: 100%;
+    margin-right: 190px;
+}
+
+.item-1 {
+    background-image:url(./Images/code-wallpaper-38.jpg);
+    width: 1300px;
+    height: 450px;
+    padding: 30px;
+    margin-left: 40px;
+    opacity: 70%;
+    flex-basis: 120px;
+}
+
+
+.item-2 {
+    background-image: url(./Images/technology-785742_960_720.jpg);
+    margin-left: 40px;
+    opacity: 70%;
+}
+
+.item-3 {
+    background-image: url(./Images/code-1076536_960_720.jpg);
+    opacity: 70%;
+}
+
+.item-4 {
+    background-image: url(./Images/fiber-4814456_960_720.jpg);
+    margin-left: 40px;
+    opacity: 70%;
+}
+
+.item-5 {
+    background-image: url(./Images/programming-1873854_960_720.png);
+    opacity: 70%;
+}
+
+.contact {
+    display: flex;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+.contactBox{
+    height: 100px;
+}
+
+
+.phone, .email, .github, .linkedin {
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    justify-content: space-between;
+    font-size: 25px;
+    width: 350px;
+    display: inline-block;
+    
+}
+
+.line8{
+   height: 3px; 
+   width: 170px;
+   background-color: rgb(69, 135, 151);
+   margin-left: 90px;
+}
+.line9{
+    height: 3px;
+    width: 80px;
+    background-color: rgb(69, 135, 151);
+    margin-left: 135px;
+}
+.line10{
+    height: 3px;
+    width: 245px;
+    background-color: rgb(69, 135, 151);
+    margin-left: 55px;
+}
+.line11{
+    height: 3px;
+    width: 110px;
+    background-color: rgb(69, 135, 151);
+    margin-left: 120px;
+}
+
+#phone, #email, #github, #linkedin {
+    margin-bottom: 5px;
+}
+@media screen and (max-width: 1080px){
+    *{
+        color:white;
+    }
+    #lastname{
+        color: white;
+    }
+    .profilePic{
+        width: 50px;
+        height: 50px;
+    }
+    .profilePic:hover{
+        width: 75px;
+        height: 75px;
+    }
+    section a{
+        font-size: 15px;
+    }
+    .line1, .line2, .line3, .line4{
+        max-width: 20px;
+        padding: 0;
+    }
+    .phone, .email, .github, .linkedin{
+        font-size: 15px;
+    }
+    .box {
+        flex-direction: column;
+    }
+}
